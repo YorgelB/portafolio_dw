@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,900;1,700&display=swap');
+
+* {
+    /*margin: 30px;
+    padding: 15px;*/
+    padding: 0px;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/*Main Styling */
+/*html,*/
+body {
+    font-family: 'Lucida Sans';
+}
+
+#inicio {
+    background-image: linear-gradient(rgba(0,0,0.7), rgba(0,0,0,.7)), url("img/istockphoto-1270915182-612x612.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-size: small;
+}
+
+    #inicio .contenido header {
+        background-color: #8b06f0;
+        position: fixed;
+        width: 100%;
+        z-index: 500;
+        top: 0;
+        left: 0;
+    }
+
+        #inicio .contenido header .contenido-header {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+            #inicio .contenido header .contenido-header nav ul {
+                list-style: none;
+                display: flex;
+                align-items: center;
+            }
+
+            #inicio .contenido header .contenido-header h1 {
+                text-align: center;
+                color: rgb(255, 255, 255);
+            }
+
+            #inicio .contenido header .contenido-header nav ul {
+                /*list-style-type: style:none;*/
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+            }
+
+                #inicio .contenido header .contenido-header nav ul li a {
+                    text-decoration: none;
+                    color: white;
+                    margin: 0 12px;
+                    font-weight: 400;
+                    transition: .5s;
+                }
+
+                #inicio .contenido header .contenido-header nav ul a:hover {
+                    color: blue;
+                }
+
+            #inicio .contenido header .contenido-header .redes a {
+                text-decoration: none;
+                color: #fff;
+                display: inline-block;
+                margin-left: 10px;
+                transition: .5s;
+            }
+
+                #inicio .contenido header .contenido-header .redes a:hover {
+                    color: #ff5832;
+                }
+
+    #inicio .contenido .presentacion {
+        max-width: 1100px;
+        height: 100vh;
+        margin: auto;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+        #inicio .contenido .presentacion .bienvenida {
+            font-size: 16px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+
+        #inicio .contenido .presentacion h2 {
+            font-size: 55px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+            #inicio .contenido .presentacion h2 span {
+                font-size: 25px;
+                color: #8b06f0;
+            }
+
+        #inicio .contenido .presentacion .descripcion {
+            max-width: 700px;
+            margin: 25px auto;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        #inicio .contenido .presentacion a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px;
+            border: 2px solid #fff;
+            border-radius: 50px;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: .5s;
+        }
+
+            #inicio .contenido .presentacion a:hover {
+                background-color: #8b06f0;
+            }
+
+.descripcion {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 30px;
+}
+
+.bienvenida {
+    text-decoration: none;
+    color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+#icono-nav {
+    color: #fff;
+    display: none;
+}
+/* SECCION S O B R E M I */
+
+#sobremi {
+    background-color: #8b06f0;
+    max-width: 1400px;
+    margin: auto;
+    padding: 200px, 30px;
+    color: #ffffff;
+    display: flex;
+    
+}
+
+    #sobremi .contenedor-foto {
+        max-width: 400px;
+        margin-right: 80px;
+        
+        
+    }
+
+        #sobremi .contenedor-foto img {
+            
+            margin: 20px;
+            padding: 20px;
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            background-color: #000000;
+        }
+        
+    #sobremi .sobremi1 {
+        margin:  55px;
+        
+        
+    }
+
+        #sobremi .sobremi1 .titulo-seccion {
+            margin: 40px;
+            font-size: 22px;
+            text-transform: uppercase;
+            color: #fafafa;
+            margin-top: -35px;
+            text-decoration: underline;
+            text-decoration-color: #ffffff;
+            text-decoration-thickness: 2px;
+            text-align: center;
+            
+        }
+
+        #sobremi .sobremi h2 {
+            font-size: 90px;
+            font-weight: bold;
+            margin: 20px 0;
+            letter-spacing: 20px;
+            margin-top: 30px;
+        } 
+
+            #sobremi .sobremi h2 span {
+                color: #33d416;
+                margin-top: 30px;
+            }
+
+        #sobremi .sobremi h3 {
+            font-size: 18px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        #sobremi .sobremi p {
+            font-size: 50px;
+            line-height: 25px;
+            color: #3edc1b;
+            margin-bottom: 12px;
+        }
+
+        #sobremi .sobremi a {
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            color: #000;
+            border-radius: 30px;
+            padding: 10px 20px;
+            border: 1px solid #000;
+            margin-top: 30px;
+            transition: .5s;
+            
+        }
+
+            #sobremi .sobremi a:hover {
+                background-color: #ff5832;
+                color: #fff;
+            }
+
+.sr {
+    text-align: center;
+    height: 400px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 1px solid rgb(53, 0, 52);
+    margin-top: 30px;
+    background-color: #000;
+    background-image: url(img/IMG_20220904_022118.jpg);
+    background-size:contain;
+
+}
+
+.contact {
+    height:700px;
+    text-align: center;
+    color:#fafafa;
+    border: 1px solid rgba(45, 45, 45);
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: #000;
+    
+}
+/* ///// Formulario de contacto/////*/
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    font-size: 0.75em;
+    color: rgb(9, 225, 49);
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+    .styled-input {
+        width: 100%;
+    }
+}
+
+.styled-input label {
+    color: #999;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input.wide {
+    width: 650px;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #edf2ee;
+    color: #2d2d2d;
+    border-radius: 4px;
+}
+
+    input:focus,
+    textarea:focus {
+        outline: 0;
+    }
+
+        input:focus ~ span,
+        textarea:focus ~ span {
+            width: 100%;
+            -webkit-transition: all 0.075s ease;
+            transition: all 0.075s ease;
+        }
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+    float: right;
+    padding: 7px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #2d2d2d;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06), 0 2px 10px 0 rgba(0,0,0,0.07);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+    .submit-btn:hover {
+        transform: translateY(1px);
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10), 0 1px 1px 0 rgba(0,0,0,0.09);
+    }
+
+@media (max-width: 768px) {
+    .submit-btn {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+
+input[type=checkbox] + label {
+    color: #ccc;
+    font-style: italic;
+}
+
+input[type=checkbox]:checked + label {
+    color: #f00;
+    font-style: normal;
+}
+
+/*Galeria de fotos*/
+
+.container.gallery-container {
+    background-color:   #8b06f0;
+    color: #35373a;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    padding-top:15px;
+    text-align: center;
+    font-weight: bold;
+    color:azure;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+    .tz-gallery .lightbox img {
+        width: 40%;
+        margin-bottom: 30px;
+        transition: 0.2s ease-in-out;
+        box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    }
+
+        .tz-gallery .lightbox img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+        }
+
+    .tz-gallery img {
+        border-radius: 10px;
+    }
+
+.wrapper {
+    overflow: hidden;
+    width: 620px;
+}
+
+    .wrapper div {
+         /*cualquier altura mayor que el total de sumar la anchura de las img*/ 
+        width: 430px;
+         /*para evitar el margen superior de la primera fila*/ 
+        margin-top: -10px;
+    }
+
+img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px 10px 0 0;
+}
